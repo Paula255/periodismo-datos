@@ -19,4 +19,4 @@ Se trata de un mapamundi que sitúa a más de un centenar de compositoras en su 
 
 Puede visualizarse a distintas escalas, debido a la gran cantidad de datos que incorpora. Esto permite al público hacerse una idea general de dónde se concentran las compositoras recogidas en la investigación, pero también seleccionar el área geográfica que sea de su interés.
 
-Buscar y ordenar un volumen tan grande de datos es una tarea compleja que está resuelta con bastante éxito gracias a esa posibilidad de elegir un espacio concreto con el zoom o al buscador lateral. Sin embargo, utilizar fotografías como iconos en el mapa en algunas zonas como Europa termina sobrecargando el mapa. 
+Buscar y ordenar un volumen tan grande de datos es una tarea compleja que está resuelta con bastante éxito gracias a esa posibilidad de elegir un espacio concreto con el zoom o al buscador lateral. Sin embargo, utilizar fotografías como iconos en el mapa en algunas zonas como Europa termina sobrecargando el mapa.
