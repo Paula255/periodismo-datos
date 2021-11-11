@@ -25,9 +25,9 @@ Las barras horizontales son de un mismo color naranja. El tamaño varía según 
 
 La variación porcentual se acompaña de un código de color:
 
--Azul oscuro para los valores más altos
--Degradado para valores medios
--Verde para valores negativos, asociado a una mejora en la situación
+- Azul oscuro para los valores más altos
+- Degradado para valores medios
+- Verde para valores negativos, asociado a una mejora en la situación
 
 El azul es el color corporativo de ElDiario.es, por lo que, a nivel visual, encaja con el diseño de la web del periódico. El naranja de las barras favorece la continuidad con el mapa anterior.
 
