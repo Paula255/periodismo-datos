@@ -35,8 +35,19 @@ La herramienta que se ha utilizado para visualizar los datos de las CCAA es Data
 
 ### Infografía C: Listado de municipios
 
-Texto
+Esta última infografía en forma de tabla añade algunas columnas de datos más. Utiliza los mismos dos colores que las anteriores, naranja y azul, también en una escala de íntensidad. Las cabeceras permiten ordenar la información e incorpora un buscador de municipios. En este caso, la incorporación de barras que ilustran los datos puede ser más útil para comparar, pues no están ordenados de mayor a menor por defecto.
+
+La tabla está diseñada con Datawrapper y es de elaboración propia. No está incrustado como imagen, sino que utiliza como fuente la URL de Datawrapper, al igual que la infografía anterior, tal como demuestra el código fuente (*view source*):
+
+"<iframe title="Busca tu municipio (...)" (...) src="https://datawrapper.(...)"
 
 ## Conclusiones
 
-Texto
+Finalmente, llegamos a una serie de conclusiones finales sobre los tres casos analizados.
+
+En primer lugar, presentan una deficiencia a la hora de compatibilizar el acceso a ellas desde dispositivos móviles.
+
+Por otra parte, no hay una gran innovación. Los gráficos y los mapas son bastante tradicionales y no tienen ningún elemento novedoso que pueda hacerlos más atractivos. Las visualizaciones distan mucho de algunos otros trabajos de *data journalism* en nuestro país, donde existen varios laboratorios periodísticos (ej. RTVE).
+
+En último lugar, cabe referirse a la diferenciación entre "infografía" y "visualización" que hace Alberto Cairo (2012) en 'The functional art'. A pesar de que considera que ambos conceptos están en un espectro continuo, señala que hay gráficos que no permiten que el público explore. En estos casos, aunque hay un cierto grado de exploración a través de buscadores de municipios, los tres gráficos se limitan más bien a presentar los datos. Si atendemos a la división más estricta de otros académicos citados por Cairo, podríamos considerar que los casos analizados son infografías que "cuentan historias diseñadas por los periodistas". Por tanto, los lectores están más limitados a la hora de crear sus propias narrativas.
+
