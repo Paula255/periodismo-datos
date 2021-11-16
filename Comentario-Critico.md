@@ -39,7 +39,7 @@ Esta última infografía en forma de tabla añade algunas columnas de datos más
 
 La tabla está diseñada con Datawrapper y es de elaboración propia. No está incrustado como imagen, sino que utiliza como fuente la URL de Datawrapper, al igual que la infografía anterior, tal como demuestra el código fuente (*view source*):
 
-"<iframe title="Busca tu municipio: ¿cuántos casos confirmados hay de coronavirus?" aria-label="chart" id="datawrapper-chart-VaMvK" src="https://datawrapper.dwcdn.net/VaMvk/59/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="728"></iframe>
+"<iframe title="Busca tu municipio: ¿cuántos casos confirmados hay de coronavirus?" aria-label="chart" id="datawrapper-chart-VaMvK" src="https://datawrapper.dwcdn.net/VaMvk/59/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="728"></iframe>"
 
 ## Conclusiones
 
