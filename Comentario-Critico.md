@@ -1,13 +1,13 @@
 
 # Comentario crítico
 
-## Visualización de datos en eldiario.es
+## Visualización de datos en ElDiario.es
 
-En esta [noticia](http://ix.io/3F9Z) de eldiario.es, se han publicado tres infografías de distinto tipo que permiten visualizar de forma gráfica la evolución de la pandemia en España. Por tanto, las tres son de temática sanitaria. Los datos se han tomado a escala municipal, utilizando, según indican, datos de las CCAA.
+En esta [noticia](http://ix.io/3F9Z) de ElDiario.es se han publicado tres infografías de distinto tipo que permiten visualizar de forma gráfica la evolución de la pandemia en España. Por tanto, las tres son de temática sanitaria. Los datos se han tomado a escala municipal, utilizando, según indican, datos de las CCAA.
 
 ### Infografía A: Mapa
 
-Se trata de un mapa del territorio nacional que presenta los datos según una escala de color. El valor más bajo corresponde al color más claro y, a medida que la variable aumenta su valor, se oscurece el color. De esta forma, las áreas con más incidencia se representan coloreadas de un color marrón oscuro. Este código de color es sencillo, pero eficaz. No satura la visualización, que es sencilla de comprender. Los datos sin tratar son complicados de entender, por lo que esta potabilización a través de una visualización gráfica simplificada es necesaria para hacer llegar a la audiencia generalista una información que es de interés público por su carácter sanitario.
+Se trata de un mapa del territorio nacional que presenta los datos según una escala de color. El valor más bajo corresponde al color más claro y, a medida que la variable aumenta su valor, se oscurece. De esta forma, las áreas con más incidencia se representan coloreadas de marrón oscuro. Este código de color es sencillo, pero eficaz. No satura la visualización, que es sencilla de comprender. Los datos tabulados sin tratar son complicados de entender, por lo que esta potabilización a través de una visualización gráfica simplificada es necesaria para hacer llegar a la audiencia generalista una información que es de interés público por su carácter sanitario.
 
 La fuente de los datos utilizados, según se indica, son las CCAA. Las herramientas que se han utilizado para realizar esta infografía son OpenStreetMap y MapBox.
 
@@ -27,7 +27,7 @@ La variación porcentual se acompaña de un código de color:
 - Degradado para valores medios
 - Verde para valores negativos, asociado a una mejora en la situación
 
-El azul es el color corporativo de ElDiario.es, por lo que, a nivel visual, encaja con el diseño de la web del periódico. El naranja de las barras favorece la continuidad con el mapa anterior.
+El azul es el color corporativo de ElDiario.es, por lo que, a nivel visual, encaja con el diseño de la web del periódico. Aunque usa el verde para representar un dato favorable, no emplea el rojo para los municipios más afectados. Esta combinación de rojo y verde es el código de colores habitual en el imaginario colectivo para ilustrar valores positivos y negativos. No obstante, el cambio no dificulta la comprensión.  El naranja de las barras favorece la continuidad visual con el mapa anterior.
 
 La herramienta que se ha utilizado para visualizar los datos de las CCAA es Datawrapper. La autoría es de ElDiario.es.
 
@@ -49,3 +49,6 @@ Por otra parte, no hay una gran innovación. Los gráficos y los mapas son basta
 
 En último lugar, cabe referirse a la diferenciación entre "infografía" y "visualización" que hace Alberto Cairo (2012) en 'The functional art'. A pesar de que considera que ambos conceptos están en un espectro continuo, señala que hay gráficos que no permiten que el público explore. En estos casos, aunque hay un cierto grado de exploración a través de buscadores de municipios, los tres gráficos se limitan más bien a presentar los datos. Si atendemos a la división más estricta de otros académicos citados por Cairo, podríamos considerar que los casos analizados son infografías que "cuentan historias diseñadas por los periodistas". Por tanto, los lectores están más limitados a la hora de crear sus propias narrativas.
 
+## Bibliografía
+
+CAIRO, A. (2012). "The functional art". Disponible en [enlace](www.thefunctionalart.com)
