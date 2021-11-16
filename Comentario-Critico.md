@@ -9,6 +9,8 @@ En esta [noticia](http://ix.io/3F9Z) de ElDiario.es se han publicado tres infogr
 
 Se trata de un mapa del territorio nacional que presenta los datos según una escala de color. El valor más bajo corresponde al color más claro y, a medida que la variable aumenta su valor, se oscurece. De esta forma, las áreas con más incidencia se representan coloreadas de marrón oscuro. Este código de color es sencillo, pero eficaz. No satura la visualización, que es sencilla de comprender. Los datos tabulados sin tratar son complicados de entender, por lo que esta potabilización a través de una visualización gráfica simplificada es necesaria para hacer llegar a la audiencia generalista una información que es de interés público por su carácter sanitario.
 
+El usuario puede colocar el cursor sobre el municipio de su interés y ampliar así la información. Además, se ajuntan pequeños gráficos de barras verticales para ilustrar la evolución.
+
 La fuente de los datos utilizados, según se indica, son las CCAA. Las herramientas que se han utilizado para realizar esta infografía son OpenStreetMap y MapBox.
 
 OpenStreetMap se define como "*the free wiki world map*". Permite crear mapas a partir de fuentes de datos libres. En el caso del mapa de ElDiario.es, al pulsar en información, permite colaborar y mejorarlo. MapBox es la herramienta utilizada para integrar los datos sobre el mapa.
