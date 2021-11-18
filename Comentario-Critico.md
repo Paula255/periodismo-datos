@@ -54,3 +54,7 @@ En último lugar, cabe referirse a la diferenciación entre "infografía" y "vis
 ## Bibliografía
 
 CAIRO, A. (2012). "The functional art". Disponible en [enlace](http://www.thefunctionalart.com/p/about-book.html)
+
+## Capturas de pantalla
+
+![Mapa](/img/Captura-mapa-eldiario "Captura de pantalla de eldiario.es")
