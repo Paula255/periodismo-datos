@@ -57,4 +57,4 @@ CAIRO, A. (2012). "The functional art". Disponible en [enlace](http://www.thefun
 
 ## Capturas de pantalla
 
-![Mapa](/img/Captura-mapa-eldiario) "Captura de pantalla de eldiario.es"
+![Mapa](/img/Captura-mapa-eldiario "Captura de pantalla de eldiario.es")
