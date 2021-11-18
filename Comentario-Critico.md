@@ -3,7 +3,7 @@
 
 ## Visualización de datos en ElDiario.es
 
-En esta [noticia](http://ix.io/3F9Z) de ElDiario.es se han publicado tres infografías de distinto tipo que permiten visualizar de forma gráfica la evolución de la pandemia en España. Por tanto, las tres son de temática sanitaria. Los datos se han tomado a escala municipal, utilizando, según indican, datos de las CCAA.
+En esta [noticia](https://www.eldiario.es/sociedad/mapa-casos-confirmados-coronavirus-covid-19-espana-municipio-2-de-noviembre_1_1466396.html) de ElDiario.es se han publicado tres infografías de distinto tipo que permiten visualizar de forma gráfica la evolución de la pandemia en España. Por tanto, las tres son de temática sanitaria. Los datos se han tomado a escala municipal, utilizando, según indican, datos de las CCAA.
 
 ### Infografía A: Mapa
 
@@ -58,3 +58,7 @@ CAIRO, A. (2012). "The functional art". Disponible en [enlace](http://www.thefun
 ## Capturas de pantalla
 
 ![Mapa](/img/Captura-mapa-eldiario.png "Captura de pantalla de eldiario.es")
+
+![Tabla-A](/img/Captura-tabla-a.png "Captura de pantalla de eldiario.es")
+
+![Tabla-B](/img/Captura-tabla-b.png "Captura de pantalla de eldiario.es")
