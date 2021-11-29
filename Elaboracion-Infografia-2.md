@@ -50,9 +50,35 @@ La base de datos utilizada forma parte del [catálogo de datos abiertos](https:/
 
 ### Limpieza de datos
 
-Una vez descargado el documento .csv, se ha utilizado OpenRefine para limpiar y cribar los datos. El archivo original presenta los datos de las actuaciones del cuerpo de bomberos én cada distrito de Madrid a lo largo del año 2021 (hasta el mes de octubre). Las columnas recogen la cantidad de salidas según el motivo. La última columna es un sumatorio para dar el número total de actuaciones. La fecha está dividida en dos columnas separadas: mes y año.
+Una vez descargado el documento .csv, se ha utilizado OpenRefine para limpiar y cribar los datos. El archivo original presenta los datos de las actuaciones del cuerpo de bomberos en cada distrito de Madrid a lo largo del año 2021 (hasta el mes de octubre). Las columnas recogen la cantidad de salidas según el motivo. La última columna es un sumatorio para dar el número total de actuaciones. La fecha está dividida en dos columnas separadas: mes y año.
 
-El primer paso ha consistido en crear una sola columna de fecha concatenando las columnas de mes y año. Para ello, se ha creado una columna basada en ellas con la expresión
+El primer paso ha consistido en crear una sola columna de fecha concatenando las columnas de mes y año. Para ello, se ha creado una columna basada en ellas sumando ambos valores en todas las filas con un espacio como separación. Una vez creada la columna, he eliminado mes y año. Estas celdas en el documento original utilizan las mayúsculas. Con la opción de transformaciones comunes, se cambió con la expresión value.ToTitlecase('').
+
+Los valores de las columnas de daños y totales son números. Con transformaciones comunes, se indica que se reconozcan como cifras y se cambie el formato.
+
+Al haber eliminado varios tipos de daños e intervenciones para hacer manejable el *dataset*, la columna de totales no se ajusta al resultado adecuado. Por tanto, es necesario crear una nueva columna que sea la suma de los cuatro tipos de actuaciones que he considerado. De nuevo se ha empleado la opción de crear una columna basada en otra. La expresión de GREL utilizada ha sido: cells.["Nombre de columna 1"].value + cells.["Nombre de columna 2"] ...
+
+El resultado final de este archivo csv con el que se va a trabajar es el siguiente:
+
+- **Columna de fecha**. A pesar de la posibilidad de convertir estos valores en fechas con la opción value.ToDate('') tras un tratamiento de conversión cambiando el espacio por / para que sea reconocible por OpenRefine, finalmente se descarta por no ser útil para la visualización posterior. Además, dado que el *dataset* original no especifica el día ni la hora de los datos, surge un problema con la transformación: considera que son del día 1 de cada mes a las 00:00:00. Por este motivo, se ha decidido mantenerlo como texto.
+- **Columna de distrito**. Se eliminan las mayúsculas a excepción de la primera de cada palabra.
+- **Cuatro columnas de distintos tipos de daño**.
+- **Nueva columna de totales**.
+
+#### Facetas
+
+Las distintas facetas permiten segmentar los datos.
+
+- **Faceta de línea de tiempo**. Este tipo permite hacer una selección temporal. Sin embargo, necesita de una columna con formato fecha. Tras descartar este formato por los motivos expuestos anteriormente, se suprime también esta faceta.
+- **Faceta de texto**. En esta ocasión, se han creado dos facetas de texto: una sobre la columna Fecha y otra sobre la columna Distrito. De esta manera, segmentamos los datos en el tiempo y espacio.
+
+#### Exportar *comma separated values* o .csv
+
+Jugando con las facetas y la opción de *Undo/Redo* se ha exportado un archivo .csv para cada infografía.
+
+- Un archivo con el nombre de distrito y los totales en octubre para el mapa.
+- Cuatro archivos con el nombre del distrito y las cantidades de cada tipo de actuación y el total en octubre para establecer una comparación en los gráficos de dispersión y de columas agrupadas.
+- Un archivo con los distintos tipos de daños y los totales en todos los meses del año (a excepción de mayo) para un solo distrito: Centro.
 
 ### Visualización 
 
