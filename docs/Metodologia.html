@@ -101,7 +101,7 @@
 <p>En docs, creo una carpeta llamada css con las hojas de estilo en cascada. Más adelante, será necesario cambiar la ruta en el html para que se aplique el estilo.</p>
 <p>También es necesario crear una carpeta (js) para un archivo JavaScript y, de la misma manera, habrá que cambiar la ruta en el html.</p>
 <h2 id="trabajo-con-html">Trabajo con html</h2>
-<p>En el archivo index.html he realizado algunos cambios básicos para personalizar la web, tales como cambiar el nombre o los enlaces del menú superior. Todos los pasos concretos están comentados en el código, pero también los enumero a continuación:</p>
+<p>En el archivo index.html he realizado algunos cambios básicos para personalizar la web, tales como cambiar el nombre o los enlaces del menú superior. Todos los pasos concretos están comentados en el código <!-- ¡Comentarios como este! -->, pero también los enumero a continuación:</p>
 <ul>
 <li>Cambio el lenguaje a español</li>
 <li>Cambio las rutas anteriormente mencionadas</li>
@@ -109,9 +109,7 @@
 <li>Cambio el nombre del menú, añado otros apartados y cambio los enlaces</li>
 <li>Cambio la autoría</li>
 <li>Cambio el contenido del pie o <em>footer</em></li>
-<li>Borro a partir del nivel 1 (
-<h1>
-) para sustituirlo por el contenido que he redactado para el index.</li>
+<li>Borro a partir del nivel 1 (< h1 >) para sustituirlo por el contenido que he redactado para el index.</li>
 </ul>
 <p>Hecho esto, duplico (cp) el archivo dos veces hasta tener tres index.html. Hecho esto, en uno de ellos borro todo, salvo la cabecera. Con el otro hago lo mismo, pero conservo el pie. Estos dos nuevos archivos, con sus nuevos nombres, servirán para combinar con las bases creadas con pandoc. Con el comando cat, concateno los tres archivos hasta tener un html para cada práctica de la siguiente manera:</p>
 <p>cat Cabecera.html Archivo-base Pie.html &gt; Práctica.html</p>
@@ -120,7 +118,7 @@
 <h2 id="página-en-github">Página en Github</h2>
 <p>Para lanzar la página desde Github, voy al apartado de configuración o <em>settings</em> del repositorio. A continuación, pulso en <em>pages</em> e indico que se construya desde la carpeta docs y desde <em>root</em> (la rama <em>main</em> se mantiene). Se publica la página web: paula255.github.io/periodismo-datos/.</p>
 <h2 id="crear-un-archivo-comprimido-.zip">Crear un archivo comprimido .zip</h2>
-<p>Finalmente, una vez se ha terminado todo el trabajo, utilizo el comando zip para crear un archivo comprimido de todo el repositorio del curso. Lo guardo en la carpeta src de docs, junto a los proyectos de OpenRefine y los csv resultantes de cada práctica de elaboración de infografía.</p>
+<p>Finalmente, una vez se ha terminado todo el trabajo, utilizo el comando zip (zip -r nombre.zip periodismo-datos) para crear un archivo comprimido de todo el repositorio del curso. Lo guardo en la carpeta src de docs, junto a los proyectos de OpenRefine y los csv resultantes de cada práctica de elaboración de infografía.</p>
   </div>
 </main>
 
@@ -146,6 +144,6 @@
 | |_| | | (_| | |_) | (_| || | (_) | |  _| | | | | (_| | |
  \__|_|  \__,_|_.__/ \__,_|/ |\___/  |_| |_|_| |_|\__,_|_|
                          |__/
--->      
+ Hecho con figlet :)-->      
   </body>
 </html>
