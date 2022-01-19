@@ -131,11 +131,11 @@ Veamos un ejemplo. Si desease abrir con el comando cat un archivo de texto hola.
 
 El lenguaje HTML tiene una serie de caracteres reservados especiales. Por tanto, si queremos utilizar esos caracteres con una función distinta a la habitual, debemos indicárselo. Para eso sirven las entidades, que constan de un & al principio y un ; al final.
 
-Imaginemos que queremos escribir como cadena de caracteres que 4 < 3 con el sentido "cuatro es menor que tres". En este caso, "<" es utilizado en el código para estructurar el contenido (por ejemplo, <h1> indica primer nivel de título). Tenemos que utilizar una entidad de la siguiente manera:
+Imaginemos que queremos escribir como cadena de caracteres que 4 < 3 con el sentido "cuatro es menor que tres". En este caso, "<" es utilizado en el código para estructurar el contenido. Tenemos que utilizar una entidad de la siguiente manera:
 
 4 &lt; 3
 
-NOTA: lt corresponde a *lower than*.
+NOTA: Ver código. lt corresponde a *lower than*.
 
 ## 44. Dado el significado que tienen las comillas para el comando =echo=, cómo harías para que devolviera una frase como: "Hola          Mundo"
 
@@ -151,11 +151,11 @@ Son caracteres "comodines". Un ejemplo es *.
 
 * sirve para sustuir un número ilimitado de caracteres. Por ejemplo, si queremos copiar todos los archivos .txt independientemente de su nombre, utilizaremos de la siguiente forma el wildcard:
 
-**cp *.txt**
+cp *.txt
 
 ## 46. ¿Qué función tiene la almohadilla en Markdown y en un programa de la shell? Razona tu respuesta.
 
-En Markdown, indica que el texto es un título, como ocurre en este documento. Equivale al <h-> de HTML, donde - son los distintos niveles de título. Una almohadilla equivale a <h1>, dos almohadillas a <h2>... En cambio, en los programas de la shell utilizamos la almohadilla para comentarios. Esto significa que, al ejecutarlos, no se leerán las líneas que empiecen con #.
+En Markdown, indica que el texto es un título, como ocurre en este documento. Equivale al &lt;h-> de HTML, donde - son los distintos niveles de título. Una almohadilla equivale a &lt;h1>, dos almohadillas a &lt;h2>... En cambio, en los programas de la shell utilizamos la almohadilla para comentarios. Esto significa que, al ejecutarlos, no se leerán las líneas que empiecen con #.
 
 ## 53. Pon un par de ejemplos de Google Dorks u "operadores de búsqueda"
 
